@@ -8,4 +8,4 @@ class EquiposAdmin(admin.ModelAdmin):
 
 @admin.register(Trabajos)
 class TrabajosAdmin(admin.ModelAdmin):
-    pass
+    pass 
