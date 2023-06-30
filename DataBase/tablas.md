@@ -1,37 +1,42 @@
 # Entidades del Proyecto
 
-### Equipos
+### Dispositivos
 
-- id
-- descripcion
+- dispositivo_id **(PK)**
+- tipoDispositivo
 - marca
 - modelo 
 - serial
 - activoViejo
 - activoNuevo
-- responsable
-- cargo
 - ubicacion
 
-### Trabajos
+### Servicios
 
-- id
-- tipoTrabajo
+- servicios_id **(PK)**
+- tipoServicio
 - fechaInicio
 - fechaFin
 
-### Actores
+### Tecnicos
 
-- id
+- id_tecnico **(PK)**
 - nombre
 - apellido
 - email
-- rol
+
+
+### Responsables
+
+- id_responsable **(PK)**
+- nombre
+- cargo
+
 
 ### Reportes
 
-- id
-- descripcion
-- fecha
+- id_reporte **(PK)**
+- requerimiento
+- solucion
+- fechaReporte
 
-159000022029
